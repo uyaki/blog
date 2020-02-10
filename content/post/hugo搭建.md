@@ -80,7 +80,7 @@ $ hugo server -D
 
 ## 创建 public 子模块
 ```sh
-$ git submodule add -b master git@github.com:gknoone/gknoone.github.io.git
+$ git submodule add -f git@github.com:gknoone/gknoone.github.io.git public
 ```
 
 ## 生成最终发布的网站内容
@@ -180,4 +180,4 @@ cd ..
 
 ## 支持评论
 
-Hugo 支持 Disqus 评论，只需要在配置文件 config.toml 中设置 disqusShortname = "disqusShortname"，如果没有 disqusShortname，需要到 Disqus 官网注册一个账号，注册后添加一个网站，添加时会让填一个 shortname，Disqus 会生成一个 shortname.disqus.com 的网址，另外还需要把 config.toml 中的 baseURL 地址，也就是公网访问地址添加到 Diqus 的信任网址中，类似于互相添加信任
+Hugo 支持 Disqus 评论，只需要在配置文件 config.toml 中设置 disqusShortname = "disqusShortname"，如果没有 disqusShortname，需要到 [Disqus 官网](https://disqus.com/)注册一个账号，注册后添加一个网站，添加时会让填一个 shortname，Disqus 会生成一个 shortname.disqus.com 的网址，另外还需要把 config.toml 中的 baseURL 地址，也就是公网访问地址添加到 Diqus 的信任网址中，类似于互相添加信任
