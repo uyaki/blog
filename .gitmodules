@@ -2,3 +2,6 @@
 	path = public
 	url = git@github.com:gknoone/gknoone.github.io.git
 	branch = master
+[submodule "themes/even"]
+	path = themes/even
+	url = https://github.com/gknoone/hugo-theme-even.git
