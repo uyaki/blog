@@ -2,8 +2,8 @@
 title: "Git加速最佳实践"
 date: 2020-02-11T09:25:55+08:00
 draft: false
-tags: ["git","工具","proxy"]
-categories: ["git","工具","proxy","加速"]
+tags: ["git","proxy","加速"]
+categories: ["git"]
 ---
 ## Git支持的协议
 
