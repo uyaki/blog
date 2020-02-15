@@ -10,7 +10,7 @@ categories: ["emacs","spacemacs"]
 添加下面的代码到`.spacemacs`或`~/.spacemacs/init.el` 的`dotspacemacs/user-init()`下
 
 ```elpa
-(setq configuration-layer--elpa-archives
+(setq configuration-layer-elpa-archives
     '(("melpa-cn" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
       ("org-cn"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")
       ("gnu-cn"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")))
