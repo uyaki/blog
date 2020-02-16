@@ -50,14 +50,13 @@ sudo chmod 777 /usr/local/bin/iterm2-*
 
 ### 将文件传到远端服务器
 
-在远端服务器上输入 `rz` ，回车 
-选择本地要上传的文件 
-等待上传 
+1. 在远端服务器上输入 `rz` ，回车；
+2. 选择本地要上传的文件；
+3. 等待上传；
 
 
 ### 从远端服务器下载文件
 
-在远端服务器输入`sz filename filename1 … filenameN`
-
-选择本地的存储目录 
-等待下载 
+1. 在远端服务器输入`sz filename filename1 … filenameN`；
+2. 选择本地的存储目录；
+3. 等待下载；
