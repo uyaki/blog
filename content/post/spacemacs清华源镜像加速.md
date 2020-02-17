@@ -2,8 +2,8 @@
 title: "Spacemacs清华源镜像加速"
 date: 2020-02-11T13:48:32+08:00
 draft: false
-tags: ["镜像","加速","spacemacs"]
-categories: ["emacs","spacemacs"]
+tags: ["镜像","加速","Spacemacs"]
+categories: ["Emacs","Spacemacs"]
 ---
 ## 核心配置
 

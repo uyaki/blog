@@ -3,7 +3,7 @@ title: "Java8的18个时间处理实践"
 date: 2020-02-15T15:58:54+08:00
 draft: false
 tags: ["java8","时间处理"]
-categories: ["JAVA"]
+categories: ["java"]
 ---
 
 ## java8 关于时间、日期处理

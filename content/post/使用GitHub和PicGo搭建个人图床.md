@@ -2,7 +2,7 @@
 title: "使用GitHub和PicGo搭建个人图床"
 date: 2020-02-12T01:02:04+08:00
 draft: false
-tags: ["blog","图床"]
+tags: ["picgo","github"]
 categories: ["图床"]
 ---
 

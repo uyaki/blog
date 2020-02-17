@@ -2,7 +2,7 @@
 title: "Hugo搭建"
 date: 2020-02-06T21:56:02+08:00
 draft: false
-tags: ["Hugo","blog"]
+tags: ["hugo","blog","install"]
 categories: ["Hugo"]
 ---
 # 使用 Hugo 搭建博客

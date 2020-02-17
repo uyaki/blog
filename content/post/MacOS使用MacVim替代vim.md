@@ -1,9 +1,9 @@
 ---
-title: "Mac使用MacVim替代vim"
+title: "MacOS使用MacVim替代vim"
 date: 2020-02-11T11:06:59+08:00
 draft: false
 tags: ["macOS","vim"]
-categories: ["vim"]
+categories: ["Vim"]
 toc: false
 ---
 

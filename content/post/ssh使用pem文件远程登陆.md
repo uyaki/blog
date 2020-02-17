@@ -1,9 +1,9 @@
 ---
-title: "ssh使用pem文件远程登陆"
+title: "SSH使用pem文件远程登陆"
 date: 2020-02-11T10:46:03+08:00
 draft: false
 tags: ["ssh","认证"]
-categories: ["ssh"]
+categories: ["SSH"]
 ---
 ## 方式一：
 

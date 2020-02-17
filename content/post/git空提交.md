@@ -3,7 +3,7 @@ title: "Git空提交"
 date: 2020-02-11T11:12:37+08:00
 draft: false
 tags: ["git"]
-categories: ["git"]
+categories: ["Git"]
 toc: false
 ---
 
