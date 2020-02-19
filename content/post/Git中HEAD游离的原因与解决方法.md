@@ -2,6 +2,7 @@
 title: "Git中HEAD游离的原因与解决方法"
 date: 2020-02-17T14:48:59+08:00
 draft: false
+keywords: ["git","HEAD","游离"]
 tags: ["git"]
 categories: ["Git"]
 ---

@@ -2,6 +2,7 @@
 title: "SSH使用pem文件远程登陆"
 date: 2020-02-11T10:46:03+08:00
 draft: false
+keywords: ["ssh","认证","pem","远程登录"]
 tags: ["ssh","认证"]
 categories: ["SSH"]
 ---

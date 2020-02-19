@@ -2,6 +2,7 @@
 title: "Git加速最佳实践"
 date: 2020-02-11T09:25:55+08:00
 draft: false
+keywords: ["git","proxy","加速"]
 tags: ["git","proxy","加速"]
 categories: ["Git"]
 ---
