@@ -15,6 +15,6 @@ toc: false
 3. 插入到.gitignore
    ```sh
    $ echo .DS_Store >> .gitignore
-   ```
-4. git  push
+   ``` 
+4. git push
 
