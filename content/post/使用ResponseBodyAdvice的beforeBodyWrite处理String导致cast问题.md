@@ -2,6 +2,7 @@
 title: "使用ResponseBodyAdvice的beforeBodyWrite处理String导致cast问题"
 date: 2020-02-17T15:02:02+08:00
 draft: false
+keywords: ["java","spring boot","ResponseBodyAdvice","beforeBodyWrite"]
 tags: ["java","spring boot"]
 categories: ["Java"]
 ---

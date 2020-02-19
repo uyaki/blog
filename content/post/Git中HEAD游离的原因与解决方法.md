@@ -2,6 +2,7 @@
 title: "Git中HEAD游离的原因与解决方法"
 date: 2020-02-17T14:48:59+08:00
 draft: false
+keywords: ["git","HEAD","游离"]
 tags: ["git"]
 categories: ["Git"]
 ---
@@ -12,21 +13,21 @@ Git 中的 HEAD 可以理解为指针，指向当前仓库所处的分支。一�
 
 还可以在命令行中输入 `cat .git/HEAD` 查看当前 HEAD 指向哪里。
 
-![](https://cdn.jsdelivr.net/gh/gknoone/pic-cloud/img/20200217145433.png)
+![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200217145433.png)
 
 一般它指向当前工作目录所在分支的最新提交
 
-![](https://cdn.jsdelivr.net/gh/gknoone/pic-cloud/img/20200217145602.png)
+![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200217145602.png)
 
 ## 如何造成 HEAD 的游离状态
 
 一般我们会使用命令 `git checkout ` 来切换分支，HEAD 就会移动到指定的分支上
 
-![](https://cdn.jsdelivr.net/gh/gknoone/pic-cloud/img/20200217145701.png)
+![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200217145701.png)
 
 但是，如果我们使用的是 `git checkout ` 来切换到指定的某一次提交，HEAD 就会处于「detached」状态，也就是**游离状态**
 
-![](https://cdn.jsdelivr.net/gh/gknoone/pic-cloud/img/20200217145740.png)
+![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200217145740.png)
 
 ## HEAD 游离状态的利弊
 
@@ -35,7 +36,7 @@ Git 中的 HEAD 可以理解为指针，指向当前仓库所处的分支。一�
 > 弊端：若在该基础上进行了提交，则会新开一个「匿名分支」；也就是说我们的提交是**无法可见保存**的，一旦切换到别的分支，原游离状态以后的提交就**不可追溯**了。
 
 
-![](https://cdn.jsdelivr.net/gh/gknoone/pic-cloud/img/20200217145833.png)
+![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200217145833.png)
 
 ## 如何解决
 

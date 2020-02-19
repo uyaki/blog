@@ -2,6 +2,7 @@
 title: "IDEA破解"
 date: 2020-02-17T15:00:39+08:00
 draft: true
+keywords: ["idea","破解"]
 tags: ["idea"]
 categories: ["Idea"]
 ---
