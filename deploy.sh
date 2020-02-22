@@ -52,7 +52,7 @@ done
 
 # Come Back up to the Project Root
 cd ..
-
+echo -e "\n\033[0;32m👀很骚的操作～～～\033[0m"
 blogPush=true
 while $blogPush
 do
