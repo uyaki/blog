@@ -6,13 +6,19 @@ keywords: [ "git", "fork","Pull Request" ]
 tags: ["git"]
 categories: ["Git"]
 ---
-## 创建一个分叉
+## fork项目
+
 直接进入 GitHub 页面，点击`Fork`按钮。 就是这么简单。
+
+克隆到本地，才能开始骚操作～～
+
 ```sh
 # Clone your fork to your local machine
 $ git clone git@github.com:USERNAME/FORKED-PROJECT.git
 ```
+
 ## 让你的fork保持最新
+
 ```sh
 # Add 'upstream' repo to list of remotes
 $ git remote add upstream https://github.com/UPSTREAM-USER/ORIGINAL-PROJECT.git
