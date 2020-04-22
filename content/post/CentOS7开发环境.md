@@ -20,6 +20,7 @@ $ hostnamectl status
 $ yum -y install net-tools
 # 文件传输
 $ yum -y install lrzsz
+$ yum install -y unzip zip
 ```
 
 ## docker安装
