@@ -31,13 +31,15 @@ sftp(选项)(参数)
 ```bash
 $ sftp -Pport user@ip
 ```
-## 下载
+## 下载与上传
 
 ```bash
 # cd到服务器指定目录
 sftp> cd xxx
-# 本地cd到要下载的目标位置
+# 本地cd到要下载的目标位置，所有命令+l是操作本机
 sftp> lcd ~/Downloads
-# 下载
+# 下载(获取 远程 本地)
 sftp> get -r ./* ./
+# 上传（推送 本地 远程）
+sftp> put /local/path/file.pdf /xxx/xxx/xxx/
 ```
