@@ -30,12 +30,12 @@ $ git submodule update
 ## idea
 
 1. idea使用open打开项目
-![](https://cdn.jsdelivr.net/gh/gknoone/pic-cloud/img/20200218154952.png)
+![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200218154952.png)
 2. 配置
    - 设置jdk
-   ![](https://cdn.jsdelivr.net/gh/gknoone/pic-cloud/img/20200218153613.png)
+   ![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200218153613.png)
    - 导入子模块
-   ![](https://cdn.jsdelivr.net/gh/gknoone/pic-cloud/img/20200218153759.png)
+   ![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200218153759.png)
 3. 更新maven
 
 ## 子模块的更新

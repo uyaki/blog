@@ -19,10 +19,10 @@ devtools: #热部署
 
 ## 在idea开启
 1. 如下图设置 `Build，Execution...->Compiler`，勾选 `Build project automatically`
-![](https://cdn.jsdelivr.net/gh/gknoone/pic-cloud/img/20200223011604.png)
+![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200223011604.png)
 2. 快捷键 `commond+option+shift+'/'`，弹出`Maintenance`界面
-![](https://cdn.jsdelivr.net/gh/gknoone/pic-cloud/img/20200223011708.png)
+![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200223011708.png)
 3. 点击`Registry`, 勾选compiler.automake.allow.when.app.running
-![](https://cdn.jsdelivr.net/gh/gknoone/pic-cloud/img/20200223011808.png)
+![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200223011808.png)
 4. 重启项目
 

@@ -9,7 +9,7 @@ categories: ["java","swagger"]
 
 ## 问题描述
 
-![](https://cdn.jsdelivr.net/gh/gknoone/pic-cloud/img/20200304113107.png)
+![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200304113107.png)
 
 ## 原因
 
