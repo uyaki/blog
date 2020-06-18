@@ -11,7 +11,7 @@ categories: ["图床"]
 
 ### 新建repository作为图床地址
 
-![](https://cdn.jsdelivr.net/gh/gknoone/pic-cloud/img/20200212013241.png)
+![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200212013241.png)
 
 ### 创建token
 
@@ -19,17 +19,17 @@ categories: ["图床"]
 2. 把 repo 的勾打上即可。然后翻到页面最底部，点击 Generate token 的绿色按钮生成 token；
 3. 复制生成的token；
 
-![](https://cdn.jsdelivr.net/gh/gknoone/pic-cloud/img/20200212013757.png)
+![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200212013757.png)
 
 ## PicGo配置
 
 ### 安装
 
 1. 从[PicGo官方](https://github.com/Molunerfinn/PicGo)下载最新版本；
-2. 使用[jsDelivr](https://www.jsdelivr.com/?docs=gh)进行CDN加速，设置自定义域名如下`https://cdn.jsdelivr.net/gh/gknoone/pic-cloud`；
+2. 使用[jsDelivr](https://www.jsdelivr.com/?docs=gh)进行CDN加速，设置自定义域名如下`https://cdn.jsdelivr.net/gh/uyaba/pic-cloud`；
 
 完整配置如下:
-![](https://cdn.jsdelivr.net/gh/gknoone/pic-cloud/img/20200216202445.png)
+![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200216202445.png)
 
 
 

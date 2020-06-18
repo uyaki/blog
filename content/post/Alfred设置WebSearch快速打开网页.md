@@ -9,7 +9,7 @@ toc: false
 ---
 
 Alfred -> feature -> Web Search -> Add Custom Search 
-![](https://cdn.jsdelivr.net/gh/gknoone/pic-cloud/img/20200304144324.png)
+![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200304144324.png)
 
 Search Url：输入网址
 Keyword： 检索关键字
