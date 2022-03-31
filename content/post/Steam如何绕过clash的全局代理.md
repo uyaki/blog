@@ -2,9 +2,9 @@
 title: "Steam如何绕过clash的全局代理"
 date: 2022-04-01T01:40:49+08:00
 draft: false
-keywords: [ "", "" ]
-tags: [""]
-categories: [""]
+keywords: [ "steam", "clash","proxy" ]
+tags: ["steam", "clash","proxy"]
+categories: ["proxy"]
 ---
 
 ## 设置bypass
