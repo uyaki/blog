@@ -3,8 +3,8 @@ title: "ELasticSearch设置ik+pinyin分词器"
 date: 2020-03-05T19:28:53+08:00
 draft: false
 keywords: [ "es", "elasticsearch","ik","pinyin" ]
-tags: ["elasticsearch","ik","pinyin"]
-categories: ["Elasticsearch"]
+tags: ["开发"]
+categories: ["开发"]
 ---
 
 ## 安装

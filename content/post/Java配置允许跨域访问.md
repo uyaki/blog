@@ -3,8 +3,8 @@ title: "Java配置允许跨域访问"
 date: 2020-02-22T23:57:53+08:00
 draft: false
 keywords: [ "java", "cors","跨域" ]
-tags: ["java","cors"]
-categories: ["Java"]
+tags: ["java"]
+categories: ["java"]
 ---
 
 ## 方案

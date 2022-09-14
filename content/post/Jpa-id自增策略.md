@@ -3,8 +3,8 @@ title: "Jpa Id自增策略"
 date: 2020-02-17T15:03:09+08:00
 draft: false
 keywords: ["java","jpa"]
-tags: ["java","jpa"]
-categories: ["Java"]
+tags: ["java"]
+categories: ["java"]
 ---
 
 - TABLE：使用一个特定的数据库表格来保存主键。

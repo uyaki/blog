@@ -3,8 +3,8 @@ title: "Git使用子模块功能搭建多模块无关联IDEA项目"
 date: 2020-02-19T09:00:55+08:00
 draft: false
 keywords: ["git","submodule","idea"]
-tags: ["git","submodule","idea"]
-categories: ["Git","IDEA"]
+tags: ["git"]
+categories: ["git"]
 ---
 
 ## 项目创建

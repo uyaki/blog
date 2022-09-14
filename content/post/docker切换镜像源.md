@@ -3,8 +3,8 @@ title: "Docker切换镜像源"
 date: 2020-02-11T10:57:01+08:00
 draft: false
 keywords: [ "docker","镜像","加速"]
-tags: ["docker","镜像","加速"]
-categories: ["Docker"]
+tags: ["docker","开发","加速"]
+categories: ["docker","开发","加速"]
 toc: false
 ---
 

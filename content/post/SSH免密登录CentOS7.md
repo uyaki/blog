@@ -3,8 +3,8 @@ title: "SSH免密登录CentOS7"
 date: 2020-04-19T14:21:48+08:00
 draft: false
 keywords: [ "ssh", "centos7" ]
-tags: ["ssh","centos7"]
-categories: ["ssh"]
+tags: ["ssh","开发"]
+categories: ["ssh","开发"]
 ---
 
 ## 本机传送id_rsa.pub

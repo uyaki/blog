@@ -3,8 +3,8 @@ title: "Docker部署ES、kibana并配置ik分词"
 date: 2020-02-17T13:59:26+08:00
 draft: false
 keywords: ["es","docker","kibana","ik分词"]
-tags: ["es","docker","kibana","ik分词"]
-categories: ["Elasticsearch"]
+tags: ["docker","开发","部署"]
+categories: ["docker","开发","部署"]
 ---
 
 ## 1. 创建数据目录

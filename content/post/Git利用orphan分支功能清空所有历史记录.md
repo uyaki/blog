@@ -3,7 +3,7 @@ title: "Git利用orphan分支功能清空所有历史记录"
 date: 2020-02-19T09:44:59+08:00
 draft: false
 keywords: ["git","orphan","历史记录"]
-tags: ["git","orphan"]
+tags: ["git"]
 categories: ["git"]
 ---
 

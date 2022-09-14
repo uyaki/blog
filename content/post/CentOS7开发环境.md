@@ -3,7 +3,7 @@ title: "CentOS7开发环境"
 date: 2020-04-19T10:16:36+08:00
 draft: false
 keywords: [ "centOS7","dev","env" ]
-tags: ["linux","centOS7"]
+tags: ["linux","服务器"]
 categories: ["linux"]
 ---
 ## 基础配置

@@ -3,8 +3,8 @@ title: "解决PD的bootcamp中windows无法联网的问题"
 date: 2022-04-01T15:25:29+08:00
 draft: false
 keywords: [ "Parallels Desktop", "windows" ]
-tags: ["Parallels Desktop"]
-categories: ["Parallels Desktop"]
+tags: ["软件","windows"]
+categories: ["软件","windows"]
 ---
 
 ## 解决无法联网的问题:

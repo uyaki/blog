@@ -4,7 +4,7 @@ date: 2020-02-23T22:05:37+08:00
 draft: false
 keywords: [ "git", "乱码" ]
 tags: ["git"]
-categories: ["Git"]
+categories: ["git"]
 ---
 
 ## git add 显示中文乱码

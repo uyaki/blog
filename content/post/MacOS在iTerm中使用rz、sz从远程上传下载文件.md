@@ -3,8 +3,8 @@ title: "MacOS在iTerm中使用rz、sz从远程上传下载文件"
 date: 2020-02-11T10:49:09+08:00
 draft: false
 keywords: ["iTerm","macOS","rz","sz","远程"]
-tags: ["iTerm","macOS"]
-categories: ["iTerm"]
+tags: ["软件","macOS"]
+categories: ["软件","macOS"]
 ---
 
 ## 安装

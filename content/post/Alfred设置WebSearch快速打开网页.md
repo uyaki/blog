@@ -3,8 +3,8 @@ title: "Alfred设置WebSearch快速打开网页"
 date: 2020-03-04T14:44:14+08:00
 draft: false
 keywords: [ "alfred", "web search","效率" ]
-tags: ["alfred"]
-categories: ["tools","alfred"]
+tags: ["软件"]
+categories: ["软件"]
 toc: false
 ---
 

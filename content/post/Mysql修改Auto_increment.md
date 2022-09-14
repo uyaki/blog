@@ -3,8 +3,8 @@ title: "Mysql修改Auto_increment"
 date: 2020-02-26T10:25:52+08:00
 draft: false
 keywords: [ "Mysql", "Auto_increment","主键自增" ]
-tags: ["mysql","auto_increment"]
-categories: ["Mysql"]
+tags: ["开发","mysql"]
+categories: ["开发","mysql"]
 ---
 
 ## 查看 

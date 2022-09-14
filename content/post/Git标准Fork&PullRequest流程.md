@@ -3,8 +3,8 @@ title: "Git标准Fork & Pull Request流程"
 date: 2020-02-23T22:53:46+08:00
 draft: false
 keywords: [ "git", "fork","Pull Request" ]
-tags: ["git"]
-categories: ["Git"]
+tags: ["git","规范"]
+categories: ["git","规范"]
 ---
 ## fork项目
 

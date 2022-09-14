@@ -3,8 +3,8 @@ title: "ElasticSearch修改已经存在的index的settings"
 date: 2020-03-05T16:44:08+08:00
 draft: false
 keywords: [ "es", "settings" ]
-tags: ["es"]
-categories: ["ElasticSearch"]
+tags: ["开发"]
+categories: ["开发"]
 ---
 
 1. 关闭索引

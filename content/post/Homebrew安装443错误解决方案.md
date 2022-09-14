@@ -3,8 +3,8 @@ title: "Homebrew安装443错误解决方案"
 date: 2020-02-29T20:34:35+08:00
 draft: false
 keywords: [ "homebrew", "macOS" ]
-tags: ["homebrew"]
-categories: ["homebrew"]
+tags: ["macOS","软件"]
+categories: ["macOS","软件"]
 ---
 
 ## 问题

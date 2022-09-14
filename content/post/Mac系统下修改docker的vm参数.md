@@ -4,7 +4,7 @@ date: 2020-02-17T14:10:15+08:00
 draft: false
 keywords: ["docker","macOS","vm参数"]
 tags: ["docker","macOS"]
-categories: ["Docker"]
+categories: ["docker","macOS"]
 ---
 
 1. screen

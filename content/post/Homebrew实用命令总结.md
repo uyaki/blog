@@ -3,8 +3,8 @@ title: "Homebrew实用命令总结"
 date: 2020-02-23T01:23:11+08:00
 draft: false
 keywords: [ "macOS", "homebrew","brew" ]
-tags: ["macOS","homebrew"]
-categories: ["homebrew"]
+tags: ["macOS","软件"]
+categories: ["macOS","软件"]
 ---
 
 ## 更新Homebrew

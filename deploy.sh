@@ -35,7 +35,7 @@ do
             python sitemap-xml2txt.py
             ## 推送到百度
             echo -e "\033[0;32m💣开始推送sitemap文件到百度SEO\033[0m"
-            curl -H 'Content-Type:text/plain' --data-binary @sitemap.txt "http://data.zz.baidu.com/urls?site=https://uyaba.github.io&token=augsNyfDJdgYTaAE"
+            curl -H 'Content-Type:text/plain' --data-binary @sitemap.txt "http://data.zz.baidu.com/urls?site=https://uyaki.github.io&token=augsNyfDJdgYTaAE"
             baiduSEO=false
             ;;
 

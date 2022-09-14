@@ -2,9 +2,9 @@
 title: "DataX教程"
 date: 2020-03-19T09:46:31+08:00
 draft: false
-keywords: [ "", "" ]
-tags: [""]
-categories: [""]
+keywords: [ "DataX", "" ]
+tags: ["开发"]
+categories: ["开发"]
 ---
 
 ## 安装

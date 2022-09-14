@@ -4,7 +4,7 @@ date: 2020-02-11T11:16:29+08:00
 draft: false
 keywords: ["git",".DS_Store"]
 tags: ["git"]
-categories: ["Git"]
+categories: ["git"]
 toc: false
 ---
 

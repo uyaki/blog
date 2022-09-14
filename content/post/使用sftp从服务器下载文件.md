@@ -2,9 +2,9 @@
 title: "使用sftp从服务器下载文件"
 date: 2020-04-22T10:54:52+08:00
 draft: false
-keywords: [ "", "" ]
-tags: [""]
-categories: [""]
+keywords: [ "sftp", "服务器" ]
+tags: ["软件", "服务器"]
+categories: ["软件", "服务器"]
 ---
 ## sftp
 交互式的文件传输程序，命令的运行和使用方式与 ftp 命令相似，但是，sftp 命令对传输的所有信息使用 ssh 加密，它还支持公钥认证和压缩等功能。
