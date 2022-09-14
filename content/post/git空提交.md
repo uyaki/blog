@@ -4,7 +4,7 @@ date: 2020-02-11T11:12:37+08:00
 draft: false
 keywords: ["git","空提交"]
 tags: ["git"]
-categories: ["Git"]
+categories: ["git"]
 toc: false
 ---
 
