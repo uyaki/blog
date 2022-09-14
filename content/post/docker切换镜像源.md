@@ -31,4 +31,4 @@ $ sudo systemctl daemon-reload
 ```sh
 $ sudo systemctl restart docker
 ```
-![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200221185223.png)
+![](https://cdn.jsdelivr.net/gh/uyaki/pic-cloud/img/20200221185223.png)

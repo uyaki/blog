@@ -9,7 +9,7 @@ categories: ["开发"]
 
 ## 问题描述
 
-![](https://cdn.jsdelivr.net/gh/uyaba/pic-cloud/img/20200304113107.png)
+![](https://cdn.jsdelivr.net/gh/uyaki/pic-cloud/img/20200304113107.png)
 
 ## 原因
 

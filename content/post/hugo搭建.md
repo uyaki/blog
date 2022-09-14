@@ -67,8 +67,8 @@ $ tree -d -L 1
 ## 初始化
 $ git init
 ## 关联远程 blog 仓库
-$ git remote add origin git@github.com:uyaba/blog.git
-$ git submodule add https://github.com/uyaba/hugo-theme-even.git themes/even
+$ git remote add origin git@github.com:uyaki/blog.git
+$ git submodule add https://github.com/uyaki/hugo-theme-even.git themes/even
 ```
 
 下载完后，找到主题目录 `/themes/even/exampleSite` 下的配置文件 `config.toml`，将该文件复制到根目录下，替换根目录的 `config.toml`，根据需求更改配置文件即可。
@@ -81,7 +81,7 @@ $ hugo server -D
 
 ## 创建 public 子模块
 ```sh
-$ git submodule add -f git@github.com:uyaba/uyaba.github.io.git public
+$ git submodule add -f git@github.com:uyaki/uyaki.github.io.git public
 ```
 
 ## 生成最终发布的网站内容

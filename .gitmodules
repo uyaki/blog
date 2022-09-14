@@ -1,7 +1,7 @@
 [submodule "public"]
 	path = public
-	url = git@github.com:uyaba/uyaba.github.io.git
+	url = git@github.com:uyaki/uyaki.github.io.git
 	branch = master
 [submodule "themes/even"]
 	path = themes/even
-	url = https://github.com/uyaba/hugo-theme-even.git
+	url = https://github.com/uyaki/hugo-theme-even.git
