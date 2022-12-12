@@ -1,5 +1,5 @@
 ---
-title: "Mac下permission_denied"
+title: "Mac下go访问时出现permission_denied"
 date: 2022-12-12T20:04:46+08:00
 draft: false
 keywords: [ "go", "mac", "goland" ]
