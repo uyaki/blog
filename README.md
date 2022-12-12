@@ -1,35 +1,39 @@
 # README
 
+## HomePage
+
+[uyaki's HomePage](https://uyaki.github.io/)
+
 ## Usage
 ```bash
 ## clone project
-git clone git@github.com:uyaki/blog.git
-
+$ git clone git@github.com:uyaki/blog.git
 ## update theme
-cd blog
-git submodule init 
-git submodule update
+$ cd blog
+$ git submodule init 
+$ git submodule update
 
 ## pull public
-cd public
-git pull
-cd ..
+$ cd public
+$ git pull
+$ cd ..
 ```
 
-## update
+## Update
 
-### Add A new content
+### Add A New Content
 
 ```bash
-hugo new post/[modules]/[title].md
-
-hugo
-
-hugo server -D
+## add new 
+$ hugo new post/[modules]/[title].md
+## build hugo
+$ hugo
+## local test
+$ hugo server -D
 ## 127.0.0.1:1313
 ```
 
-### push
+### Push
 
 ```bash
 ## push public
