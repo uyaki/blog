@@ -5,3 +5,7 @@
 [submodule "themes/even"]
 	path = themes/even
 	url = https://github.com/uyaki/hugo-theme-even.git
+	branch = master
+[submodule "themes/FixIt"]
+	path = themes/FixIt
+	url = https://github.com/hugo-fixit/FixIt.git
