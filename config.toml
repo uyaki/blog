@@ -607,7 +607,7 @@ theme = "FixIt"
       # comment = "Buy me a coffee"
       # FixIt 0.2.18 | 新增 二维码图片展示模式，可选值：["static", "fixed"]，默认：`static`
       # FixIt 0.2.18 | NEW display mode of QR code images, optional values: ["static", "fixed"], default: `static`
-      mode = "static"
+      mode = "fixed"
       [params.page.reward.ways]
         wechatpay = "/images/wechat-qr-code.png"
         alipay = "/images/alipay-qr-code.png"
@@ -963,9 +963,9 @@ theme = "FixIt"
   # FixIt 0.2.14 | 新增 在左上角或者右上角显示 GitHub 开源链接
   # FixIt 0.2.14 | NEW GitHub banner in the top-right or top-left corner
   [params.githubCorner]
-    enable = false
-    permalink = "https://github.com/uyaki/blog"
-    title = "View source on GitHub"
+    enable = true
+    permalink = "https://github.com/uyaki"
+    title = "在github上关注我吧"
     position = "right" # ["left", "right"]
 
   # FixIt 0.2.14 | 新增 Gravatar 设置
@@ -984,7 +984,7 @@ theme = "FixIt"
     enable = true
     # 在 b2t 按钮中显示滚动百分比
     # Scroll percent label in b2t button
-    scrollpercent = false
+    scrollpercent = true
 
   # FixIt 0.2.16 | 新增 阅读进度条
   # FixIt 0.2.16 | NEW Reading progress bar
@@ -1004,7 +1004,7 @@ theme = "FixIt"
   # FixIt 0.2.17 | NEW Progress bar in the top during page loading.
   # For more information: https://github.com/CodeByZach/pace
   [params.pace]
-    enable = false
+    enable = true
     # All available colors:
     # ["black", "blue", "green", "orange", "pink", "purple", "red", "silver", "white", "yellow"]
     color = "blue"

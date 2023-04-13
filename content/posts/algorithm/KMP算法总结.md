@@ -60,13 +60,13 @@ pattern: abcdabcy
 
 这里的p_start通常情况下，被描述为next数组，它的含义是：**字符串在当前位置存在前缀后缀匹配数组的长度，也可以描述为匹配度。** 当出现不匹配时，只需要知道前面的字符串的匹配度，就可以知道，下一次匹配时，pattern的开始查找位置。
 
-{{< notice notice-info >}}
+{{< admonition info>}}
 如 step4时，
 - p_index = 7时，pattern[7] = j 与text[18] 不匹配
 - 此时前面的匹配度 =next[p_index - 1] = 3
 - 匹配度=3，说明对于主串text，前面 t_index = 18前面的3个字符和pattern前面的3个字符一定是匹配的
 - 所以，继续查找时，d_index 还是18 不需要回退，只需要从p_index = 3开始匹配即可，如step5 所示
-{{</ notice >}}
+{{</ admonition >}}
 
 ## 如何获取next数组
 
