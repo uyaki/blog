@@ -10,7 +10,7 @@ author:
 description:
 keywords: [ "es","docker","kibana","ik分词"]
 license:
-comment: false
+comment: true
 weight: 0
 tags:
   - docker 

@@ -10,7 +10,7 @@ author:
 description:
 keywords: ["picgo","图床"]
 license:
-comment: false
+comment: true
 weight: 0
 tags:
   - blog 

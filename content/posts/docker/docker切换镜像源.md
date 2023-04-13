@@ -10,7 +10,7 @@ author:
 description:
 keywords: [ "加速","docker"]
 license:
-comment: false
+comment: true
 weight: 0
 tags:
   - docker 
