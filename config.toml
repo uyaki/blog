@@ -1039,15 +1039,15 @@ theme = "FixIt"
       type = "vConsole"
 
 # # Hugo 解析文档的配置
-# [markup]
-#   # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
-#   [markup.highlight]
-#     ################## 必要的配置 ##################
-#     # https://github.com/hugo-fixit/FixIt/issues/43
-#     codeFences = true
-#     lineNos = true
-#     lineNumbersInTable = true
-#     noClasses = false
+[markup]
+  # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    ################## 必要的配置 ##################
+    # https://github.com/hugo-fixit/FixIt/issues/43
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
 #     ################## 必要的配置 ##################
 #     guessSyntax = true
 #   # Goldmark 是 Hugo 0.60 以来的默认 Markdown 解析库
