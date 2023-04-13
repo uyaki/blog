@@ -564,7 +564,7 @@ theme = "FixIt"
       copy = true
       # FixIt 0.2.13 | 新增 是否显示代码块的编辑按钮
       # FixIt 0.2.13 | NEW whether to show the edit button of the code block
-      edit = false
+      edit = true
       # 默认展开显示的代码行数
       # the maximum number of lines of displayed code by default
       maxShownLines = 10
@@ -889,7 +889,7 @@ theme = "FixIt"
     enable = false
     # 在文章中开启
     # Enable in post meta
-    enablePost = false
+    enablePost = true
 
   # 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu/360/Sogou
   # Site verification code config for Google/Bing/Yandex/Pinterest/Baidu/360/Sogou
