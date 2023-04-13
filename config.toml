@@ -761,7 +761,7 @@ theme = "FixIt"
         # owner/repo
         repo = "uyaki/uyaki.github.io"
         issueTerm = "pathname"
-        label = ""
+        label = "写下你的评论..."
         lightTheme = "github-light"
         darkTheme = "github-dark"
       # FixIt 0.2.13 | NEW Twikoo comment config (https://twikoo.js.org/)
