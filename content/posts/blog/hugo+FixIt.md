@@ -46,11 +46,11 @@ go install github.com/gohugoio/hugo@latest
 # 2. 执行 -tags extended 
 go install -tags extended github.com/gohugoio/hugo@latest
 ```
-{{< notice notice-warning >}}
+{{< admonition warning >}}
 
 1. FixIt使用了Sass必须执行 `go install -tags extended github.com/gohugoio/hugo@latest`，否则会报错
 2. 如果已经安装了hugo，一定要升级到新版本，旧版本有很多不兼容FixIt
-{{</ notice >}}
+{{</ admonition >}}
 
 ## 建站
 
