@@ -354,7 +354,7 @@ theme = "FixIt"
       enable = true
       # 主页每页显示文章数量
       # special amount of posts in each home posts page
-      paginate = 2
+      paginate = 6
   # FixIt 0.2.16 | 更改 作者的社交信息设置
   # FixIt 0.2.16 | CHANGED Social config about the author
   [params.social]
@@ -647,7 +647,7 @@ theme = "FixIt"
     # FixIt 0.2.15 | 更改 评论系统设置
     # FixIt 0.2.15 | CHANGED Comment config
     [params.page.comment]
-      enable = false
+      enable = true
       # FixIt 0.2.13 | 新增 Artalk 评论系统设置 (https://artalk.js.org/)
       # FixIt 0.2.13 | NEW Artalk comment config (https://artalk.js.org/)
       [params.page.comment.artalk]
@@ -757,9 +757,9 @@ theme = "FixIt"
         enable = false
       # FixIt 0.2.5 | NEW Utterances comment config (https://utteranc.es)
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
+        repo = "uyaki/uyaki.github.io"
         issueTerm = "pathname"
         label = ""
         lightTheme = "github-light"
