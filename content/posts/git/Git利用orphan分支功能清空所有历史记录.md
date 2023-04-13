@@ -38,7 +38,7 @@ repost:
 
 ## 实现
 
-```sh 
+```bash 
 ## 创建一个orphan分支
 $ git checkout --orphan tmp_branch
 ## 给爷爬~~~~
@@ -61,9 +61,9 @@ $ git push -f origin master
 ### git push -f无权限问题
 可能会出现无法强制推送的BUG：
 
-```
+{{< admonition bug >}}
 You are not allowed to force push code to a protected branch on this project
-```
+{{< /admonition >}}
 
 配置下Git远程（在 Settings 的 Repository 设置项的 Protected Branches)
 

@@ -37,7 +37,7 @@ repost:
 本人是idea开源作者，可以在合理的范围内使用正版idea，此方法只供需要的人了解学习使用
 
 ## 方法
-```sh
+```bash
 $ vim /Applications/IntelliJ\ IDEA.app/Contents/MacOS
 # q 退出
 $ vim ~/Library/Preferences/IntelliJIdea2019.3/idea.vmoptions

@@ -53,7 +53,7 @@ repost:
 
 请到 [winget官方](https://github.com/microsoft/winget-cli/releases) 查看最新可下载版本
 
-```sh
+```bash
 ## 下载
 $ curl.exe -L -o $HOME/Downloads/winget.msixbundle https://github.com/microsoft/winget-cli/releases/download/v1.2.10271/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
 
@@ -72,7 +72,7 @@ $ winget -v
 
 管理员身份运行powershell
 
-```sh
+```bash
 $ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
@@ -85,7 +85,7 @@ $ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointMana
 - 方式一：使用命令行（推荐）
   
 以管理员身份打开 PowerShell（`“开始”菜单` -> `PowerShell` -> `单击右键` -> `以管理员身份运行`）并运行：
-```sh
+```bash
 $ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 
@@ -103,7 +103,7 @@ $ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linu
 
 以管理员身份打开 PowerShell 并运行：
 
-```sh
+```bash
 $ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 
@@ -115,7 +115,7 @@ $ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nor
 
 - 下载
   
-```sh
+```bash
 ## 使用PowerShell的WebClient下载
 $ $client = new-object System.Net.WebClient
 $ $client.DownloadFile('https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi',$HOME+'\Downloads\wsl_update_x64.msi')
@@ -125,7 +125,7 @@ $ curl.exe -L -o $HOME/Downloads/wsl_update_x64.msi https://wslstorestorage.blob
 ```
 
 - 安装
-```sh
+```bash
 ## 进入下载目录
 $ cd $HOME\Downloads
 ## 安装
@@ -138,7 +138,7 @@ $ wsl --set-default-version 2
 
 > [wsl官方文档](https://docs.microsoft.com/zh-cn/windows/wsl/install)
 
-```sh
+```bash
 # 查看可安装版本 wsl --list --online
 $ wsl -l -o
 
@@ -155,7 +155,7 @@ $ wsl --set-version Ubuntu 2
 
 ### 步骤5 登录退出
 
-```sh
+```bash
 $ wsl
 ```
 

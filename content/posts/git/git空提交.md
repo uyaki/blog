@@ -33,6 +33,6 @@ repost:
 
 <!--more-->
 
-```sh
+```bash
 $ git commit --allow-empty -m "chore: touch ops build"
 ```

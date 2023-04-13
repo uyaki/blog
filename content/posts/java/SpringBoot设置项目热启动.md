@@ -33,7 +33,7 @@ repost:
 <!--more-->
 
 ## 导入jar包
-```
+```markdown
 'org.springframework.boot:spring-boot-devtools'
 ```
 ## 添加配置项

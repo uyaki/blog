@@ -35,7 +35,7 @@ repost:
 
 ## 1. 创建数据目录
 
-```sh
+```bash
 #创建数据/日志目录 这里我们部署3个节点
 $ mkdir /opt/elasticsearch/data/{es01,es02,es03} -p
 mkdir /opt/elasticsearch/logs/{es01,es02,es03} -p
@@ -50,7 +50,7 @@ sysctl -p
 
 ## 2. ES集群安装
 
-```yml
+```yaml
 version: '2.2'
 services:
   es01:
@@ -161,13 +161,13 @@ networks:
 
 ## 3. 启动
 
-```sh
+```bash
 docker-compose up -d
 ```
 
 ## 4. 安装ik分词插件
 
-```sh
+```bash
 // 集群
 $ docker-compose exec es01 elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v7.5.1/elasticsearch-analysis-ik-7.5.1.zip
 
@@ -246,7 +246,7 @@ services:
 
 解决：
 
-```sh
+```bash
 ## 查看已安装插件
 $ docker-compose exec es01 elasticsearch-plugin list
 ## 移除转一半到插件

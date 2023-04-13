@@ -36,12 +36,12 @@ repost:
 
 使用 git add 添加要提交的文件的时候，如果文件名是中文，会显示形如`\347\204\246\347\263\226\345\245\266\350\214\266.md`的乱码
 
-```sh
+```bash
 $ git config --global core.quotepath false
 ```
 
 ## git log 显示提交的中文 log 乱码
-```sh
+```bash
 # 设置 git gui 的界面编码 
 $ git config --global gui.encoding utf-8
 # 设置 commit log 提交时使用 utf-8 编码，可避免服务器上乱码，同时与 linux 上的提交保持一致！ 

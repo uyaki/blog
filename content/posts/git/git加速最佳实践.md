@@ -44,26 +44,26 @@ repost:
 
 - 针对所有git服务器设置代理（这里演示使用socks5端口）
 
-```sh
+```bash
 $ git config --global http.proxy=socks5://127.0.0.1:1086
 $ git config --global https.proxy=socks5://127.0.0.1:1086
 ```
 
 - 只针对github.com设置代理（这里演示使用http端口）
 
-```sh
+```bash
 $ git config --global http.https://github.com.proxy http://127.0.0.1:1087
 ```
 
 - 如果代理需要账号密码
 
-```sh
+```bash
 $ git config --global http.proxy http://<proxyuser>:<proxypwd>@<proxy.server.com>:<proxy.server.port>
 ```
 
 ### 通过编辑git配置文件的方式
 
-```sh
+```bash
 $ vim ~/.gitconfig
 
 [http]
@@ -78,13 +78,13 @@ $ vim ~/.gitconfig
 
 **macOS安装方式**：
 
-```sh
+```bash
 $ brew install connect
 ```
 
 2. `ProxyCommand`命令设置
 
-```sh
+```bash
 $ vim ~/.ssh/config
 
 Host github.com .github.com
@@ -98,7 +98,7 @@ Host github.com .github.com
 
 3. 测试
 
-```sh
+```bash
 $ ssh -T git@github.com
 
 Hi username! You ve successfully authenticated, but GitHub does not provide shell access.
@@ -107,19 +107,19 @@ Hi username! You ve successfully authenticated, but GitHub does not provide shel
 
 ### 取消代理
 
-```sh
+```bash
 $ git config --global --unset http.proxy 
 $ git config --global --unset https.proxy
 ```
 
 ### 查看当前代理
-```sh
+```bash
 $ git config --global --get http.proxy
 $ git config --global --get https.proxy
 ```
 
 ### 查看所有git全局配置
-```sh
+```bash
 $ git config --global -l
 ```
 

@@ -38,7 +38,7 @@ repost:
 
 1. screen
 
-```sh
+```bash
 screen ~/Library/Containers/com.docker.docker/Data/vms/0/tty
 ```
 
@@ -53,7 +53,7 @@ screen ~/Library/Containers/com.docker.docker/Data/vms/0/tty
 
 3. 像正常linux系统一样设置
 
-```sh
+```bash
 sysctl -w vm.max_map_count=262144
 ```
 

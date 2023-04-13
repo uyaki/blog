@@ -38,14 +38,14 @@ repost:
 
 克隆到本地，才能开始骚操作～～
 
-```sh
+```bash
 # Clone your fork to your local machine
 $ git clone git@github.com:USERNAME/FORKED-PROJECT.git
 ```
 
 ## 让你的fork保持最新
 
-```sh
+```bash
 # Add 'upstream' repo to list of remotes
 $ git remote add upstream https://github.com/UPSTREAM-USER/ORIGINAL-PROJECT.git
 
@@ -55,7 +55,7 @@ $ git remote -v
 
 获取上游 repo 的分支和最新的提交来将它们放入你的存储库
 
-```sh
+```bash
 # Fetch from upstream remote
 $ git fetch upstream
 
@@ -65,7 +65,7 @@ $ git branch -va
 
 检查你自己的 master 分支、合并上游的 master 分支
 
-```sh
+```bash
 # Checkout your master branch and merge upstream
 git checkout master
 git merge upstream/master
@@ -78,7 +78,7 @@ git merge upstream/master
 
 无论何时开始处理一个新特性或修复错误，创建一个新分支都是很重要的。 它不仅是正确的 git 工作流，而且还可以使您的更改与主分支保持组织和分离，这样您就可以轻松地为您完成的每个任务提交和管理多个拉请求。
 
-```sh
+```bash
 # Checkout the master branch - you want your new branch to come from master
 $ git checkout master
 
@@ -96,7 +96,7 @@ $ git branch -b newfeature
 
 如果已经向上游主分支提交了任何提交，那么您应该重新设置开发分支的基础，以便合并它将是一个简单的快进操作，不需要任何冲突解决工作。
 
-```sh
+```bash
 # Fetch upstream master and merge with your repo's master branch
 $ git fetch upstream
 $ git checkout master
@@ -108,7 +108,7 @@ $ git rebase master
 ```
 现在，可能需要将一些较小的提交压缩成较大的、更具凝聚力的提交。 你可以通过一个交互式 rebase 来实现:
 
-```sh
+```bash
 # Rebase all commits on your development branch
 $ git checkout 
 $ git rebase -i master
@@ -128,12 +128,12 @@ $ git rebase -i master
 
 打开。 `.git/config` 文件，并在`[ remote "origin"]`下添加一个新行:
 
-```sh
+```bash
 fetch = +refs/pull/*/head:refs/pull/origin/*
 ```
 现在，您可以获取和检出任何拉请求，以便您可以测试它们:
 
-```sh
+```bash
 # Fetch all pull request branches
 $ git fetch origin
 
@@ -150,7 +150,7 @@ $ git checkout -b 999 pull/origin/999
 
 要手动执行合并，您需要在源代码报告中签出目标分支，直接从分支中拉出，然后合并并推出。
 
-```sh
+```bash
 # Checkout the branch you're merging to in the target repo
 $ git checkout master
 
@@ -166,7 +166,7 @@ $ git push origin master
 
 现在您已经完成了开发分支，可以自由地删除它了。
 
-```sh
+```bash
 $ git branch -d newfeature
 ```
 

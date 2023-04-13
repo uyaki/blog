@@ -47,7 +47,7 @@ repost:
 
 ## 使用 ssh连接服务器
 
-```sh
+```bash
 ## 连接服务器
 $ ssh -o ServerAliveInterval=180 -o ServerAliveCountMax=3 -o KeepAlive=yes [user]@[ip]
 ## 如果你是重装服务器可能还需要重置下ssh
@@ -59,12 +59,12 @@ $ ssh-keygen -R [ip]
 ## 注册ssh到authorized_keys
 
 - 本机操作
-```sh
+```bash
 $ cat ~/.ssh/id_rsa.pub
 ```
 
 - 服务器操作
-```sh
+```bash
 $ echo '<id_rsa.pub>' >> ~/.ssh/authorized_keys
 ```
 
@@ -74,7 +74,7 @@ $ echo '<id_rsa.pub>' >> ~/.ssh/authorized_keys
 
 ## 切换到管理员角色
 
-```sh
+```bash
 ## 切换到root下
 $ sudo su
 ## `~` => `/root`
@@ -85,13 +85,13 @@ $ cd ~
 
 ## Clone project
 
-```sh
+```bash
 $ git clone https://github.com/uyaki/dotfiles.git ~/dotfiles
 ```
 
 > 文件默认操作路径 `/root/dotfiles`
 
-```sh
+```bash
 $ cd dotfiles
 $ sudo chmod 777 ./linux/*-install.sh
 $ ./linux/ubuntu-install.sh
@@ -111,7 +111,7 @@ $ ./linux/ubuntu-install.sh
 
 如需修改 `powerlevel10k` 配置，执行：
 
-```sh
+```bash
 $ p10k configure
 ```
 

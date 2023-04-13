@@ -57,7 +57,7 @@ $ vim /etc/ssh/sshd_config
 
 > 如下配置，7.4及更高版本不需要
 
-```
+```markdown
 RSAAuthentication yes
 PubkeyAuthentication yes
 AuthorizedKeysFile .ssh/authorized_keys
@@ -81,7 +81,7 @@ $ ssh user@ip
 
 配置`.ssh/config`
 
-```
+```markdown
 Host xxx # 别名
 Hostname xxx.xxx.xxx.xxx # ip
 Port 22

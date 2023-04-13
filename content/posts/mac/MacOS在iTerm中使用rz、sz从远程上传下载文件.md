@@ -35,7 +35,7 @@ repost:
 ## 安装
 ### 下载安装lrzsz，创建软连接（mac）
 
-```sh
+```bash
 sudo brew install lrzsz
 
 ln -s /usr/local/Cellar/lrzsz/0.12.20/bin/sz
@@ -48,7 +48,7 @@ ln -s /usr/local/Cellar/lrzsz/0.12.20/bin/rz
 
 ### 下载并安装automatic zmoderm for iTerm2
 
-```sh
+```bash
 cd usr/local/bin
 
 sudo wget https://raw.github.com/mmastrac/iterm2-zmodem/master/iterm2-send-zmodem.sh

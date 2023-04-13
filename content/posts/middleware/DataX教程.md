@@ -34,18 +34,18 @@ repost:
 <!--more-->
 ## 安装
 
-```sh
+```bash
 $ git clone git@github.com:alibaba/DataX.git
 ```
 
-```sh
+```bash
 $ cd DataX
 $ vim pom.xml
 ```
 
 > 注释掉不需要的reader、writer`<module>`标签
 
-```sh
+```bash
 mvn -U clean package assembly:assembly -Dmaven.test.skip=true
 ```
 

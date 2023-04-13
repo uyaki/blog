@@ -33,11 +33,11 @@ repost:
 
 <!--more-->
 
-```sh
+```bash
 $ sudo mkdir -p /etc/docker
 ```
 
-```sh
+```bash
 $ sudo tee /etc/docker/daemon.json <<-'EOF'
 
 {
@@ -49,11 +49,11 @@ $ sudo tee /etc/docker/daemon.json <<-'EOF'
 EOF
 ```
 
-```sh
+```bash
 $ sudo systemctl daemon-reload
 ```
 
-```sh
+```bash
 $ sudo systemctl restart docker
 ```
 ![](https://cdn.jsdelivr.net/gh/uyaki/pic-cloud/img/20200221185223.png)

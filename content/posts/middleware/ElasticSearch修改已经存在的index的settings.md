@@ -33,12 +33,12 @@ repost:
 
 <!--more-->
 1. 关闭索引
-```elasticsearch
+```http
 POST /index/_close
 ```
 
 2. 修改索引Settings
-```elasticsearch
+```http
 PUT /index/_settings
 {
     "settings": {
@@ -72,6 +72,6 @@ PUT /index/_settings
 ```
 
 3. 打开索引
-```elasticsearch
+```http
 POST /index/_open
 ```

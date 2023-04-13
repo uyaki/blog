@@ -37,13 +37,13 @@ repost:
 
 1. 修改pem权限；
 
-   ```sh
+   ```bash
    sudo chmod 600 key.pem
    ```
 
 2. Mac OS 连接服务器使用 PEM 文件；
 
-   ```sh
+   ```bash
    ssh -i key.pem root@IP
    ```
 
@@ -51,13 +51,13 @@ repost:
 
 1. 使用ssh-add添加key文件；
 
-   ```sh
+   ```bash
    ssh-add -k key.pem  
    ```
 
 2. 登陆；
 
-   ```sh
+   ```bash
    ssh root@IP
    ssh -p xxxx root@IP
    ```

@@ -34,7 +34,7 @@ repost:
 <!--more-->
 ## 解决无法联网的问题:
 
-```sh
+```bash
 vim /Library/Preferences/Parallels/network.desktop.xml
 ```
 
@@ -45,7 +45,7 @@ vim /Library/Preferences/Parallels/network.desktop.xml
 
 
 解决USB无法识别问题:
-```sh
+```bash
 vim /Library/Preferences/Parallels/dispatcher.desktop.xml
 ```
 ```xml

@@ -35,20 +35,20 @@ repost:
 ## 安装
 
 > 假设你已经使用docker安装了es集群
-```sh
+```bash
 $ cd ${docker-compose-file-dir}
 ```
 
 1. 安装ik插件
-```sh
+```bash
 $ docker-compose exec es01 elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v7.6.0/elasticsearch-analysis-ik-7.6.0.zip
 ```
 2. 安装pinyin插件
-```sh
+```bash
 $ docker-compose exec es01 elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-pinyin/releases/download/v7.6.0/elasticsearch-analysis-pinyin-7.6.0.zip
 ```
 3. 重启docker
-```sh
+```bash
 $ docker-compose restart
 ```
 
@@ -56,7 +56,7 @@ $ docker-compose restart
 
 ### 创建索引
 
-```json
+```http
 PUT /my_index
 {
     "settings": {
@@ -125,7 +125,7 @@ PUT /my_index
 
 ### 检查自定义的词语分析器是否生效
 
-```json
+```http
 ## 请求
 POST /my_index/_analyze
 {
@@ -176,13 +176,13 @@ POST /my_index/_analyze
 
 ### 新增数据
 > 可以使用[datax](https://github.com/alibaba/DataX)批量导入数据，后面再开一坑
-```
+```markdown
 略
 ```
 
 ### 按「拼音」搜索
 
-```json
+```http
 POST /my_index/_search
 {
     "query":{
@@ -195,7 +195,7 @@ POST /my_index/_search
 
 ### 按「中文名」搜索
 
-```json
+```http
 POST /my_index/_search
 {
     "query":{
@@ -208,7 +208,7 @@ POST /my_index/_search
 
 ### 按「中文名 + 拼音」搜索
 
-```json
+```http
 POST /my_index/_search
 {
 	"query": {
@@ -223,7 +223,7 @@ POST /my_index/_search
 
 ### 分析执行结果
 
-```json
+```http
 GET my_index/_validate/query?explain
 {
   "query": {

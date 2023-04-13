@@ -34,11 +34,11 @@ repost:
 <!--more-->
 1. cd 到项目路径
 2. 执行
-   ```sh
+   ```bash
    $ find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
    ```
 3. 插入到.gitignore
-   ```sh
+   ```bash
    $ echo .DS_Store >> .gitignore
    ``` 
 4. git push

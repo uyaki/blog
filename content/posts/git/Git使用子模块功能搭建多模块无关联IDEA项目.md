@@ -34,7 +34,7 @@ repost:
 <!--more-->
 ## 项目创建
 
-```sh
+```bash
 $ mkdir project-parent
 $ cd project-parent
 $ git submodule add git@repo1
@@ -45,7 +45,7 @@ $ git submodule add git@repo3
 
 ## 加载项目（他人）
 
-```sh
+```bash
 $ git clone git@project-parent-repo
 $ cd project-parent
 $ git submodule init

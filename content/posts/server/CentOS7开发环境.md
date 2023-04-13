@@ -71,7 +71,7 @@ $ systemctl enable docker.service
 ```bash
 $ vim /etc/docker/daemon.json
 ```
-```
+```json
 {
   "insecure-registries" : ["docker.server:80"],
   "debug" : true,

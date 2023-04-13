@@ -68,11 +68,12 @@ cp themes/FixIt/config.toml config.toml
 ## 修改 config.toml
 
 最前面添加
-```
+```toml
 title = ""
 baseURL = ""
 languageCode = "zh-cn"
-defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
+# en / zh-cn / ... (This field determines which i18n file to use)
+defaultContentLanguage = "zh-cn" 
 # 是否包括中日韩文字
 hasCJKLanguage = true
 

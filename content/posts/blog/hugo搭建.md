@@ -50,7 +50,7 @@ repost:
 
 Mac 下直接使用 Homebrew 安装：
 
-```sh
+```bash
 $ brew install hugo
 ```
 
@@ -63,7 +63,7 @@ $ brew install hugo
 
 使用 Hugo 快速生成站点
 
-```sh
+```bash
 $ hugo new site /path/to/site
 ## 如我的项目名叫blog
 $ hugo new site blog 
@@ -71,7 +71,7 @@ $ hugo new site blog
 
 cd 到 站点文件夹
 
-```sh
+```bash
 $ cd blog
 $ tree -d -L 1
 .
@@ -96,7 +96,7 @@ $ tree -d -L 1
 
 到[hugo-theme-even](https://github.com/olOwOlo/hugo-theme-even.git)下fork项目
 
-```sh
+```bash
 ## 初始化
 $ git init
 ## 关联远程 blog 仓库
@@ -108,22 +108,22 @@ $ git submodule add https://github.com/uyaki/hugo-theme-even.git themes/even
 
 ## 启动hugo服务
 
-```sh
+```bash
 $ hugo server -D
 ```
 
 ## 创建 public 子模块
-```sh
+```bash
 $ git submodule add -f git@github.com:uyaki/uyaki.github.io.git public
 ```
 
 ## 生成最终发布的网站内容
-```sh
+```bash
 $ hugo
 ```
 
 ## 推送到远程<username>.github.io
-```sh
+```bash
 $ cd public
 $ git status
 $ git add .
@@ -133,7 +133,7 @@ $ git push -u orgin master
 
 ## 推送到远程blog
 
-```sh
+```bash
 $ cd ..
 $ vim .gitignore
 ```
@@ -185,7 +185,7 @@ hugo.linux
 
 将以上步骤添加到自动执行脚本中 deploy.sh，脚本 commit 提交信息会使用执行时的时间，将脚本放到网站项目路径下，写完博客后，双击运行即可自动部署发布
 
-```sh
+```bash
 #!/bin/bash
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"

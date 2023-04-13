@@ -49,7 +49,7 @@ repost:
 
 ## 示例
 
-```text
+```markdown
 text：   abcxabcdabxabcdabcdabcy
 pattern: abcdabcy
 ```
