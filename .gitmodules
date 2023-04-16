@@ -4,3 +4,6 @@
 [submodule "public"]
 	path = public
 	url = git@github.com:uyaki/uyaki.github.io.git
+[submodule "themes/shortcode-sponsor-log"]
+	path = themes/shortcode-sponsor-log
+	url = https://github.com/Lruihao/hugo-shortcode-sponsor-log.git

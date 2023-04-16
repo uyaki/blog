@@ -2,11 +2,4 @@
 # It's recommended to use Alternate Theme Config to configure FixIt
 # Modifying this file may result in merge conflict
 # =====================================================================================
-title = "uyaki的博客"
 baseURL = "http://uyaki.github.io/"
-languageCode = "zh-cn"
-defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
-# 是否包括中日韩文字
-hasCJKLanguage = true
-
-theme = "FixIt"

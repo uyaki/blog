@@ -1,0 +1,22 @@
+# The sponsor log data format is as follows
+
+- date: "2023-04-02 15:04"
+  sponsor: 黄**
+  amount: ¥6.66
+  origin: wechatpay # [alipay, bitcoin, paypal, wechatpay, ...]
+  remark: "牛的!"
+- date: "2022-10-02 00:04"
+  sponsor: 李**
+  amount: ¥8.88
+  origin: wechatpay # [alipay, bitcoin, paypal, wechatpay, ...]
+  remark: "感谢!"
+- date: "2020-02-09 23:53"
+  sponsor: 徐**
+  amount: ¥1.00
+  origin: wechatpay # [alipay, bitcoin, paypal, wechatpay, ...]
+  remark: ""
+- date: "2020-02-07 00:22"
+  sponsor: 刘**
+  amount: ¥6.66
+  origin: wechatpay # [alipay, bitcoin, paypal, wechatpay, ...]
+  remark: "加油!"

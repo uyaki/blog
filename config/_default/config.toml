@@ -9,4 +9,4 @@ defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... 
 # 是否包括中日韩文字
 hasCJKLanguage = true
 
-theme = "FixIt"
+theme = ["FixIt","shortcode-sponsor-log"]
