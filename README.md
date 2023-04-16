@@ -39,6 +39,9 @@ $ hugo server -D
 ### Push
 
 ```bash
+## update algolia search
+hugo-algolia -s
+
 ## push public
 cd public 
 git add .
@@ -49,7 +52,4 @@ cd ..
 git add .
 git commit -m ""
 git push
-
-## update algolia search
-hugo-algolia -s
 ```

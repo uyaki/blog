@@ -36,4 +36,4 @@ repost:
 
 <!--more-->
 
-右键 `%VSCODE_PATH%/Code.exe` -> `属性` -> `兼容性` -> `以管理员身份运行次程序`
+右键 `%VSCODE_PATH%/Code.exe` -> `属性` -> `兼容性` -> `以管理员身份运行此程序`
