@@ -19,7 +19,7 @@ math: true
 ### 赞助支持
 
 给我一个 Star 🌟 已经是对我最大的鼓励和支持了。\
-如果你喜爱这个主题，请考虑给我买杯咖啡 ☕️。
+如果我的blog对你有帮助，请考虑给我买杯咖啡 ☕️。
 
 {{< details "谢谢大家！❤️" >}}
 {{< reward wechatpay="/images/wechat-qr-code.png" alipay="/images/alipay-qr-code.png" comment="❤️ 为爱发电 ⚡️" mode="fixed" >}}
