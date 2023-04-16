@@ -17,6 +17,9 @@ $ git submodule update
 $ cd public
 $ git pull
 $ cd ..
+
+## 安装hugo-algolia
+$ npm install hugo-algolia -g
 ```
 
 ## Update
@@ -46,4 +49,7 @@ cd ..
 git add .
 git commit -m ""
 git push
+
+## update algolia search
+hugo-algolia -s
 ```

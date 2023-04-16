@@ -1,0 +1,14 @@
+---
+## algolia配置，使用hugo-algolia -s上传
+baseurl: "/"
+DefaultContentLanguage: "zh-cn"
+hasCJKLanguage: true
+languageCode: "zh-cn"
+title: "uyaki.github.io"
+theme: "FixIt"
+metaDataFormat: "yaml"
+algolia:
+  index: "uyaki_blog"
+  appID: "KNAF2WD0SY"
+  key: "bc74cea029bcc8549d9723d3f4f5b981"
+---
