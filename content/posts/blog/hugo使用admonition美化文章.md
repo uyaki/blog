@@ -6,7 +6,7 @@ author:
   name: uyaki
   link: https://www.github.com/uyaki
   avatar: /images/avatar.png
-description: 
+description:
 keywords: "shorcode"
 comment: true
 weight: 0
@@ -19,7 +19,7 @@ hiddenFromSearch: false
 linkToMarkdown: true
 summary:
 toc: true
-math: 
+math:
 lightgallery: false
 password:
 message:
@@ -95,7 +95,7 @@ hugo的LoveIt，FixIt主题都集成了admonition shorcode功能，可以比较�
 一个 **成功** 横幅
 {{< /admonition >}}
 
-## 问题 
+## 问题
 
 ```markdown
 {{</* admonition question */>}}

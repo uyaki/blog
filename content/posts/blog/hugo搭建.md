@@ -1,6 +1,6 @@
 ---
 title: Hugo搭建
-subtitle: 
+subtitle:
 date: 2020-02-06T21:56:02+08:00
 draft: false
 author:
@@ -13,10 +13,8 @@ license:
 comment: true
 weight: 0
 tags:
-  - hugo
   - blog
 categories:
-  - hugo
   - blog
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -33,7 +31,7 @@ password:
 message:
 repost:
   enable: false
-  url: 
+  url:
 
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
@@ -66,7 +64,7 @@ $ brew install hugo
 ```bash
 $ hugo new site /path/to/site
 ## 如我的项目名叫blog
-$ hugo new site blog 
+$ hugo new site blog
 ```
 
 cd 到 站点文件夹
